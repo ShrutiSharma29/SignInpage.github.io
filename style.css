@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Dekko&family=Poppins:wght@200;500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 43%;
+}
+
+.container h1 {
+
+    font-family: 'Poppins', sans-serif;
+    width: 52%;
+    display: inline-block;
+    font-size: 34px;
+    border-bottom: 4px solid rgb(241, 162, 42);
+    margin-bottom: 12px;
+    padding: 1px 0px;
+}
+
+.box {
+    width: 100%;
+    border-bottom: 2px solid rgb(241, 162, 42);
+    margin: 27px 0px;
+}
+
+.box input {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    width: 75%;
+    background: none;
+    border: none;
+    outline: none;
+
+    padding: 3px 0px;
+
+}
+
+.box i {
+    width: 10%;
+    padding: 0px 3px;
+    text-align: center;
+}
+
+.btn {
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin: 6px 0px;
+    border: 2px solid rgb(241, 162, 42);
+    border-radius: 10px;
+    font-size: 16px;
+    background: none;
+    padding: 3px 18px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn:hover {
+    color: rgb(241, 162, 42);
+    background: white;
+    opacity: 0.5;
+}
